@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title><%= @title || 'Toopaste!' %></title>
+  <style>
+    html {
+      background-color: #eee;
+    }
+    .snippet {
+      margin: 5px;
+    }
+    .snippet textarea, .snippet .sbody {
+      border: 5px dotted #eee;
+      padding: 5px;
+      width: 700px;
+      color: #fff;
+      background-color: #333;
+    }
+    .snippet textarea {
+      padding: 20px;
+    }
+    .snippet input, .snippet .sdate {
+      margin-top: 5px;
+    }
+
+    /* Syntax highlighting */
+    #content .syntax_ruby .normal {}
+    #content .syntax_ruby .comment { color: #CCC; font-style: italic; border: none; margin: none; }
+    #content .syntax_ruby .keyword { color: #C60; font-weight: bold; }
+    #content .syntax_ruby .method { color: #9FF; }
+    #content .syntax_ruby .class { color: #074; }
+    #content .syntax_ruby .module { color: #050; }
+    #content .syntax_ruby .punct { color: #0D0; font-weight: bold; }
+    #content .syntax_ruby .symbol { color: #099; }
+    #content .syntax_ruby .string { color: #C03; }
+    #content .syntax_ruby .char { color: #F07; }
+    #content .syntax_ruby .ident { color: #0D0; }
+    #content .syntax_ruby .constant { color: #07F; }
+    #content .syntax_ruby .regex { color: #B66; }
+    #content .syntax_ruby .number { color: #FF0; }
+    #content .syntax_ruby .attribute { color: #7BB; }
+    #content .syntax_ruby .global { color: #7FB; }
+    #content .syntax_ruby .expr { color: #909; }
+    #content .syntax_ruby .escape { color: #277; }
+    #content .syntax {
+      background-color: #333;
+      padding: 2px;
+      margin: 5px;
+      margin-left: 1em;
+      margin-bottom: 1em;
+    }
+    #content .syntax .line_number {
+      text-align: right;
+      font-family: monospace;
+      padding-right: 1em;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <%= yield %>
+</body>
+</html>

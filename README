@@ -1,0 +1,4 @@
+Toopaste
+========
+
+A simple (and tiny) Pastie clone written using Sinatra and DataMapper. 
