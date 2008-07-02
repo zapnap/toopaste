@@ -49,5 +49,9 @@ end
 # show
 get '/:id' do
   @snippet = Snippet.get(params[:id])
-  erb :show
+  if @snippet
+    erb :show
+  else
+    redirect '/'
+  end
 end
