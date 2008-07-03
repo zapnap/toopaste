@@ -14,8 +14,8 @@ class Snippet
   property :created_at, DateTime
   property :updated_at, DateTime
   
-  validates_present :body
-  validates_length :body, :minimum => 1
+  #validates_present :body
+  #validates_length :body, :minimum => 1
   
   Syntaxi.line_number_method = 'floating'
   Syntaxi.wrap_at_column = 80
