@@ -3,8 +3,8 @@ Toopaste
 
 A simple (and tiny) Pastie clone written by Nick Plante using Sinatra and DataMapper.
 
-This version has been modified by Dave Everitt as follows:
+This version has been modified as follows:
 
-- updated Snippet DataMapper model replaces deprecated :serial and :nullable
-- Snippet 'title' field added, with modified view
-- subtle changes to CSS
+* updated Snippet DataMapper model replaces deprecated :serial and :nullable
+* Snippet 'title' field added, with modified view
+* cosmetic changes to CSS
