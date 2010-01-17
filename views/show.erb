@@ -1,5 +1,11 @@
 <div class="snippet">
-  <div class="sbody" id="content"><%= @snippet.formatted_body %></div>
-  <div class="sdate">Created on <%= @snippet.created_at.strftime("%B %d, %Y at %I:%M %p") %></div>
-  <br/><a href="/">New Paste!</a>
+  <h1><%= @snippet.title %></h1>
+  <div class="sbody" id="content">
+     <%= @snippet.formatted_body %>
+  </div>
+  <div class="sdate">
+     Created on <%= @snippet.created_at.strftime("%B %d, %Y at %I:%M %p") %>
+  </div>
+  <br/>
+  <a href="/">Create new paste!</a>
 </div>
