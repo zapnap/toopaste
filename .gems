@@ -1,5 +1,5 @@
 sinatra --version '> 1.0'
-dm-core --version '0.10.2'
-dm-validations --version '0.10.2'
-dm-timestamps --version '0.10.2'
+dm-core
+dm-validations
+dm-timestamps
 syntaxi
