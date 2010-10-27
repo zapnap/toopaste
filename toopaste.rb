@@ -4,6 +4,7 @@ require 'sinatra'
 require 'dm-core'
 require 'dm-validations'
 require 'dm-timestamps'
+require 'dm-migrations'
 require 'syntaxi'
 
 DataMapper.setup(:default, ENV['DATABASE_URL'] || "sqlite3://toopaste.db")
