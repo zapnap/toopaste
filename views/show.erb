@@ -4,7 +4,7 @@
      <%= @snippet.formatted_body %>
   </div>
   <div class="sdate">
-     Created on <%= @snippet.created_at.strftime("%B %d, %Y at %I:%M %p") %>
+     Created on <%= @snippet.created_at.strftime("%D at %T %Z") %>
   </div>
   <br/>
   <a href="/">Create new paste!</a>
