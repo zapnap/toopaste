@@ -2,4 +2,5 @@ sinatra --version '> 1.0'
 dm-core
 dm-validations
 dm-timestamps
+dm-postgres-adapter
 syntaxi
